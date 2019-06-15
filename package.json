@@ -1,0 +1,20 @@
+{
+  "name": "17.9",
+  "version": "1.0.0",
+  "description": "upload-page",
+  "main": "index.js",
+  "scripts": {
+	"start": "nodemon index.js",
+	"test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PawelZurawka/17.9-upload_page.git"
+  },
+  "author": "Paweł",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PawelZurawka/17.9-upload_page/issues"
+  },
+  "homepage": "https://github.com/PawelZurawka/17.9-upload_page#readme"
+}
