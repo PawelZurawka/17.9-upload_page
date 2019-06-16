@@ -7,7 +7,7 @@ exports.upload = (request, response) => {
     form.parse(request, (error, fields, files) => {
         fs.moveSync(files.upload.path, 'test.png');
         response.writeHead(200, {'Content-Type': 'text/html'});
-        response.write('received image:<br>');
+        response.write('Received image:<br><br>');
         response.write('<img src="/show">');
         response.end();
 });
