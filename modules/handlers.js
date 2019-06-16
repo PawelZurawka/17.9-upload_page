@@ -32,7 +32,7 @@ exports.show = (request, response) => {
 };
 
 exports.error = (request, response) => {
-    console.log('Nie wiem co robić:(');
+    console.log('Oczekuję na polecenie...');
     response.write('404 :(');
     response.end();
 };
